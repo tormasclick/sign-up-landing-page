@@ -38,9 +38,13 @@ html, body {
           padding-top:16px;
           padding-bottom: 3px;
           width: 150px;
+          max-width: 100%;
         }
-          /*
-          .elipa_icon.elipa_logo-mauritius {
+        
+        .elipa_icon elipa_logo-mauritius logo-icon {
+          width: 150px !important;
+        }
+          /*.elipa_icon.elipa_logo-mauritius {
             height: 180px !important;
           }*/
           

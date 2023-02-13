@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="logo-wrapper">
           <a href='#'>
-          <i className="elipa_icon elipa_logo-mauritius country-flag "></i>
+            <i className="elipa_icon elipa_logo-mauritius logo-icon" style={{ width: "100%" }}></i>
           </a>
         </div>
         <div className="nav-right">
@@ -15,8 +15,6 @@ const Header = () => {
       </nav>
     </header>
   );
-} 
-
+}
 
 export default Header;
-
