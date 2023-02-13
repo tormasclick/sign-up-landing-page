@@ -12,7 +12,7 @@ const Body = () => {
             <p className="text-white text-left contacts">
               <i className="fa fa-map-marker" aria-hidden="true"></i> 
                 Office 2, Level 4, ICONEBENE,<br />
-              Lot B441, Rue de I'Institute, Ebene, Mauritius.
+              Lot B441, Rue de I&aposInstitute, Ebene, Mauritius.
             </p>
             <p className="text-white text-left contacts">
               <i className="fa fa-phone" aria-hidden="true"></i> +230 5788 5975

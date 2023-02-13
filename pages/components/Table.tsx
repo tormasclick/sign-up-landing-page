@@ -7,20 +7,20 @@ const Table = () => {
       <tbody>
         <tr>
           <td>
-            <a href='https://mu.elipa.global/' target={'_blank'}>
-              <i className="elipa_icon elipa_mauritius-flag country-flag spin"
-                onMouseEnter={e => {
-                  e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
-                }}
-                onMouseLeave={e => {
-                  e.currentTarget.style.transform = 'rotate(0deg) scale(1)';
-                }}
-              ></i>
-              Mauritius
-            </a>
+          <a href='https://mu.elipa.global/' target={'_blank'} rel="noreferrer">
+            <i className="elipa_icon elipa_mauritius-flag country-flag spin"
+              onMouseEnter={e => {
+                e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
+              }}
+              onMouseLeave={e => {
+                e.currentTarget.style.transform = 'rotate(0deg) scale(1)';
+              }}
+            ></i>
+            Mauritius
+          </a>
           </td>
           <td>
-            <a href='https://elipa.rw/' target={'_blank'}>
+            <a href='https://elipa.rw/' target={'_blank'} rel="noreferrer">
               <i className="elipa_icon elipa_rwanda-flag country-flag"
                 onMouseEnter={e => {
                   e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -33,7 +33,7 @@ const Table = () => {
             </a>
           </td>
           <td>
-            <a href='https://mu.elipa.global/#' target={'_blank'}>
+            <a href='https://mu.elipa.global/#' target={'_blank'} rel="noreferrer">
               <i className="elipa_icon elipa_somalia-flag country-flag"
                 onMouseEnter={e => {
                   e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -46,7 +46,7 @@ const Table = () => {
             </a>
           </td>
           <td>
-            <a href='https://elipa.co.tz/' target={'_blank'}>
+            <a href='https://elipa.co.tz/' target={'_blank'} rel="noreferrer">
               <i className="elipa_icon elipa_tanzania-flag country-flag"
                 onMouseEnter={e => {
                   e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -61,7 +61,7 @@ const Table = () => {
         </tr>
         <tr>
                     <td>
-                      <a href='https://ipayafrica.com/' target={'_blank'}>
+                      <a href='https://ipayafrica.com/' target={'_blank'} rel="noreferrer">
                       <i className="elipa_icon elipa_kenya-flag country-flag"
                     onMouseEnter={e => {
                       e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -74,7 +74,7 @@ const Table = () => {
                        </a>
                     </td>
                     <td>
-                      <a href='https://elipa.cd/' target={'_blank'}>
+                      <a href='https://elipa.cd/' target={'_blank'} rel="noreferrer">
                       <i className="elipa_icon elipa_drc-flag country-flag"
                     onMouseEnter={e => {
                       e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -87,7 +87,7 @@ const Table = () => {
                        </a>
                       </td>
                     <td>
-                      <a href='https://mu.elipa.global/' target={'_blank'}>
+                      <a href='https://mu.elipa.global/' target={'_blank'} rel="noreferrer">
                       <i className="elipa_icon elipa_malawi-flag country-flag"
                     onMouseEnter={e => {
                       e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -100,7 +100,7 @@ const Table = () => {
                          </a>
                         </td>
                         <td>
-                          <a href='https://mu.elipa.global/' target={'_blank'}>
+                          <a href='https://mu.elipa.global/' target={'_blank'} rel="noreferrer">
                           <i className ="elipa_icon elipa_nigeria-flag country-flag"
                     onMouseEnter={e => {
                       e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -115,7 +115,7 @@ const Table = () => {
                   </tr>
                   <tr>
                     <td>
-                    <a href='https://elipa.co.ug/' target={'_blank'}>
+                    <a href='https://elipa.co.ug/' target={'_blank'} rel="noreferrer">
                     <i className ="elipa_icon elipa_uganda-flag country-flag"
                     onMouseEnter={e => {
                       e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
@@ -128,7 +128,7 @@ const Table = () => {
                         </a>
                         </td>
                     <td>
-                    <a href='https://elipa.tg/' target={'_blank'}>
+                    <a href='https://elipa.tg/' target={'_blank'} rel="noreferrer">
                     <i className="elipa_icon elipa_togo-flag country-flag"
                     onMouseEnter={e => {
                       e.currentTarget.style.transform = 'rotate(360deg) scale(1.2)';
