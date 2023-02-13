@@ -16,7 +16,7 @@ const Table = () => {
                   e.currentTarget.style.transform = 'rotate(0deg) scale(1)';
                 }}
               ></i>
-              <span style={{float: "center"}}>Mauritius</span>
+              Mauritius
             </a>
           </td>
           <td>
