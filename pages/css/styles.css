@@ -14,7 +14,7 @@ html, body {
         display: flex;
         align-items: center;
         background-color: #fff;
-        height: 90px;
+        height: 109px;
         }
 
         /* styles for mobile */
@@ -31,13 +31,20 @@ html, body {
         width: 100%;
         padding: 0 54px;
         box-sizing: border-box;
-        box-shadow: 0px 11px 9px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.06);
         }
 
-        .logo img {
-        height: 78px;
-        padding: 2px;
+        .logo-wrapper{
+          padding-top:16px;
+          padding-bottom: 3px;
+          width: 150px;
         }
+          /*
+          .elipa_icon.elipa_logo-mauritius {
+            height: 180px !important;
+          }*/
+          
+         
 
         .nav-right p {
         color: #124aa1;
@@ -73,13 +80,15 @@ html, body {
           margin-right: 5px;
         }
         .country-flag{
-          width:40px;
+          /*width:40px;*/
+          height:50px;
         }
         @media only screen and (max-width: 767px) {
           .country-flag {
             width: 20px;
           }
         }
+
         
         .table td, .table th {
           padding: .75rem;
@@ -96,6 +105,8 @@ html, body {
           font-size: 16px;
           font-weight:bold;
           color:#f29103 !important;
+          float: left;
+          padding-left: 5%;
         }
         .contact-title{
           font-size: 16px;
@@ -117,18 +128,48 @@ html, body {
         }
         .table td, .table th {
           text-align: left;
+          padding: 0rem !important;
+        }
+        .table td{
+          width: 50px !important;
         }
         .table td img {
           margin-right: 5px;
         }
-        .country-flag {
-          transition: transform 0.5s;
-        }
+        
         
         .country-flag:hover {
-          transform: rotate(360deg);
+          animation: spin 2s linear infinite;
+        }
+  
+       /* @keyframes spin {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
         }
         .img-container:hover img {
           transform: scale(1.5);
           transition: transform 0.5s ease;
+        
+        
+        .spin:hover {  
+          -webkit-animation: infinite-spinning 1s ease-out 0s infinite normal;
+          animation: infinite-spinning 1s ease-out 0s infinite normal;
+      }
+      
+      @keyframes infinite-spinning {
+        from {
+          transform: rotate(0deg);
         }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+        }*/
+        
+        
+        
+        
